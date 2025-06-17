@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}
+
+
+
+.container {
+    width: 1033px;
+    margin-left:204px ;
+    padding: 0 15px;
+}
+
+.list-main2 {
+    background-color: antiquewhite;
+}
+
+
+.header {
+    display: flex;
+}
+
+
+.list {
+    display: flex;
+    padding-bottom: 63px;
+    margin-top:63px;
+    margin-left:168px;
+    margin-right:212px;
+}
+
+.list-li:nth-child(n - 2) {
+    margin-right: 38px;
+}
+
+
+.Logo {
+    margin-top:39px ;
+    margin-left: 204px;
+}
+
+.header-button{
+    margin-right:49px ;
+    background-color: #0B0E66;
+    color: #26C7EA;
+    border-bottom-right-radius:35px;
+    border-top-left-radius:35px;
+    border-style: solid;
+    border-width: 2pt;
+    border-color: #26C7EA;
+    width: 141px;
+    height: 41px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+margin-top: 54px;
+}
+
+.Language {
+    margin-top: 63px;
+    color: #26C7EA;
+}
+
+/* HEADER */
+
+
+
+
+.section-flex{
+    display: flex;
+}
+
+.list-main {
+   
+    height: 381px;
+    width: 376px ;
+    margin-right: 606px;
+}
+
+.main-section {
+    padding-bottom:179px;
+    padding-top: 180px;
+}
+
+.list-main-li:first-child {
+    margin-bottom:40px
+}
+
+.list-main-li:nth-child(2) {
+    margin-bottom:42px;
+}
+
+.List-main-button{
+    background-color: #0B0E66;
+    color: #26C7EA;
+    border-bottom-right-radius:35px;
+    border-top-left-radius:35px;
+    border-style: solid;
+    border-width: 2pt;
+    border-color: #26C7EA;
+    width: 260px;
+    height: 80px;
+}
+
+.sites:nth-child(1){
+margin-bottom: 24px;
+}
+
+.sites:nth-child(2){
+margin-bottom: 27px;
+}
+
+.list-main2{
+    align-self: center;
+}
+
+.main-section2{
+    padding-top: 75px;
+}
+
+.h2{
+    text-align: center;
+    margin-bottom:16px;
+}
+
+.p2{
+    padding-bottom:138px;
+    text-align: center;
+}
+
+.main-section3{
+    padding-top:330px;
+    padding-bottom: 331px;
+}
+
+.main-section3-button{
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+     background-color: #0B0E66;
+    color: #26C7EA;
+    border-bottom-right-radius:35px;
+    border-top-left-radius:35px;
+    border-style: solid;
+    border-width: 2pt;
+    border-color: #26C7EA;
+    width: 260px;
+    height: 80px;
+}
+
