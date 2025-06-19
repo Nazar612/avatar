@@ -20,20 +20,36 @@ a {
     padding: 0 15px;
 }
 
+
+
 header {
     border-bottom-style: solid;
-    border-bottom-color: white;
-}
 
-.list-main2 {
-    background-color: antiquewhite;
-}
 
+box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 150px;
+left: 0px;
+top: 0px;
+
+background: rgba(43, 74, 97, 0.87);
+border-bottom: 3px solid #FFFFFF;
+
+}
 
 .header {
     display: flex;
 }
 
+.li-a:hover {
+    color:#94CFFF ;
+}
+
+.li-a {
+    color:#FFFFFF ;
+}
 
 .list {
     display: flex;
@@ -41,6 +57,8 @@ header {
     margin-top:63px;
     margin-left:168px;
     margin-right:212px;
+    font-family: Inter2;
+    font-size: 20px;
 }
 
 .list-li:nth-child(n - 2) {
@@ -66,6 +84,7 @@ header {
     height: 41px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 margin-top: 54px;
+font-size: 20px;
 }
 
 .Language {
@@ -91,7 +110,11 @@ margin-top: 54px;
 
 .main-section {
     padding-bottom:179px;
-    padding-top: 180px;
+    padding-top: 189px;
+    background-image:url(./assets/img/MainPhoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .list-main-li:first-child {
@@ -112,6 +135,7 @@ margin-top: 54px;
     border-color: #26C7EA;
     width: 260px;
     height: 80px;
+    font-size: 24px;
 }
 
 .sites:nth-child(1){
@@ -133,16 +157,21 @@ margin-bottom: 27px;
 .h2{
     text-align: center;
     margin-bottom:16px;
+    font-size: 36px;
 }
 
 .p2{
     padding-bottom:138px;
     text-align: center;
+    font-size: 24px;
 }
 
 .main-section3{
     padding-top:330px;
     padding-bottom: 331px;
+    background-image: url(./assets/img/CenterPhoto.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .main-section3-button{
@@ -158,17 +187,30 @@ margin-bottom: 27px;
     border-color: #26C7EA;
     width: 260px;
     height: 80px;
+    font-size: 24px;
 }
 
-.main-section4 {
+.main-section4-5 {
     padding-top: 75px;
     padding-bottom: 57px;
     margin-bottom:75px;
+
+}
+
+.main-section4 {
+    background-image:url(./assets/img/FooterPhoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 75px;
 }
 
 .h4{
     text-align: center;
     padding-top: 58px;
+    margin-bottom: 45px;
+    font-size: 32px;
+    font-weight: 300;
 }
 
 .main-section4-list {
@@ -179,6 +221,7 @@ margin-bottom: 27px;
     align-content: center;
     row-gap: 35px;
    column-gap: 35px;
+   font-size: 24px;
 }
 
 .main-section4-list-li{
@@ -204,16 +247,25 @@ margin:0 auto;
 .ms5-h2{
     text-align: center;
     margin-bottom: 16px;
+    padding-top: 75px;
+    font-size: 36px;
 }
 
 .ms5-p{
     text-align: center;
     padding-bottom:138px;
+    font-size: 24px;
 }
 
 .footer {
     height: 223px;
     background-color: antiquewhite;
+position: absolute;
+width: 100%;
+left: 0px;
+top: 3385px;
+background: rgba(43, 74, 97, 0.87);
+
 }
 
 
@@ -240,6 +292,10 @@ margin:0 auto;
     margin-bottom: 16px;
 }
 
+.footer-p{
+    font-size: 16px;
+}
+
 .footer-list {
     margin-top: 80px;
 }
@@ -250,5 +306,17 @@ margin:0 auto;
     font-weight: 400;
     margin-bottom: 25px;
     margin-left:430px ;
+}
+
+main ,  footer  {
+    font-family: Inter1;
+}
+
+.p3 {
+    color: white;
+}
+
+.p5 {
+    color: white;
 }
 
