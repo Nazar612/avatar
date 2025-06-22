@@ -162,9 +162,19 @@ margin-bottom: 27px;
 }
 
 .p2{
-    padding-bottom:138px;
+    padding-bottom:18px;
     text-align: center;
     font-size: 24px;
+}
+
+.p2::after{
+       content: "";
+    display: block;
+
+    background-image: url(assets/img/Angle.png);
+    height: 120px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .main-section3{
@@ -200,8 +210,8 @@ margin-bottom: 27px;
 
 .main-section4-5 {
     padding-top: 75px;
-    padding-bottom: 57px;
-    margin-bottom:75px;
+    /* padding-bottom: 57px; */
+    /* margin-bottom:75px; */
 
 }
 
@@ -267,6 +277,16 @@ margin:0 auto;
     font-size: 24px;
 }
 
+.ms5-p::after {
+       content: "";
+    display: block;
+
+    background-image: url(assets/img/Angle.png);
+    height: 120px;
+    width: 400px;
+    margin: 0 auto;
+}
+
 .footer {
     height: 223px;
     background-color: antiquewhite;
@@ -324,9 +344,12 @@ main ,  footer  {
 
 .p3 {
     color: white;
+    font-size: 20px;
 }
+ 
 
 .p5 {
     color: white;
+    font-size: 20px;
 }
 
