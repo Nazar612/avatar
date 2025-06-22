@@ -20,8 +20,6 @@ a {
     padding: 0 15px;
 }
 
-
-
 header {
     border-bottom-style: solid;
 
@@ -37,6 +35,16 @@ top: 0px;
 background: rgba(43, 74, 97, 0.87);
 border-bottom: 3px solid #FFFFFF;
 /* background-color: #0B0E66; */
+}
+
+.list-li:hover {
+    font-size: 22px;
+    transition: font-size 0.5s ease-in;
+}
+
+.list-li {
+    font-size: 20px;
+    transition: font-size 0.2s ease-out;
 }
 
 .header {
@@ -263,9 +271,88 @@ text-align: center;
     background: rgba(255, 255, 255, 0.7);
 }
 
-.ms4-li-p {
-    margin-bottom:120px;
+.ms4-li-p-p1 {
    margin-top: 36px;
+}
+
+.ms4-li-p-p2 {
+   margin-top: 36px;
+}
+
+.ms4-li-p-p3 {
+   margin-top: 36px;
+}
+
+.ms4-li-p-p4 {
+   margin-top: 36px;
+}
+
+.ms4-li-p-p5 {
+   margin-top: 36px;
+}
+
+.ms4-li-p-p6 {
+   margin-top: 36px;
+}
+
+.ms4-li-p-p3::after {
+    content: "";
+    display: block;
+
+    margin: 40px auto;
+    background-image:url(assets/img/anglewing-small.png) ;
+    height: 40px;
+    width: 152px;
+}
+
+.ms4-li-p-p6::after {
+    content: "";
+    display: block;
+
+    margin: 40px auto;
+    background-image:url(assets/img/anglewing-small.png) ;
+    height: 40px;
+    width: 152px;
+}
+
+.ms4-li-p-p1::after {
+    content: "";
+    display: block;
+
+    margin: 40px auto;
+    background-image:url(assets/img/leftanglewing.png) ;
+    height: 40px;
+    width: 152px;
+}
+
+.ms4-li-p-p4::after {
+    content: "";
+    display: block;
+
+    margin: 40px auto;
+    background-image:url(assets/img/leftanglewing.png) ;
+    height: 40px;
+    width: 152px;
+}
+
+.ms4-li-p-p2::after {
+    content: "";
+    display: block;
+
+    margin: 40px auto;
+    background-image:url(assets/img/smallAngle.png) ;
+    height: 40px;
+    width: 152px;
+}
+
+.ms4-li-p-p5::after {
+    content: "";
+    display: block;
+
+    margin: 40px auto;
+    background-image:url(assets/img/smallAngle.png) ;
+    height: 40px;
+    width: 152px;
 }
 
 .pms4-li-p1{
@@ -297,13 +384,6 @@ margin:0 auto;
 
 .footer {
     height: 223px;
-    background-color: antiquewhite;
-position: absolute;
-width: 100%;
-left: 0px;
-top: 3385px;
-background: rgba(43, 74, 97, 0.87);
-
 }
 
 
@@ -314,7 +394,7 @@ background: rgba(43, 74, 97, 0.87);
 .holder {
     height: 153px;
     padding-right: 80px;
-    border-right: black solid 1px;
+    border-right: white solid 1px;
     margin-top:35px;
 
     margin-right: 80px;
@@ -328,6 +408,14 @@ background: rgba(43, 74, 97, 0.87);
 
 .footer-p:first-child {
     margin-bottom: 16px;
+    color: white;
+}
+
+.footer {
+    background-image: url(assets/img/footer.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .footer-p{
@@ -344,6 +432,7 @@ background: rgba(43, 74, 97, 0.87);
     font-weight: 400;
     margin-bottom: 25px;
     margin-left:430px ;
+    color: white;
 }
 
 main ,  footer  {
