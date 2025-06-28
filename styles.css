@@ -132,8 +132,16 @@ font-size: 20px;
     background-size: cover;
 }
 
-.list-main-li:first-child {
-    margin-bottom:40px
+.list-main-li:first-child::after {
+    content: "";
+    display: block;
+    width: 152px;
+    height: 40px;
+    margin:5px auto;
+
+    background-image: url(./assets/img/Rectangle\ 53\ \(1\).png);
+    background-repeat: no-repeat;
+
 }
 
 .list-main-li:nth-child(2) {
@@ -368,7 +376,6 @@ margin:0 auto;
 
 .ms5-p{
     text-align: center;
-    padding-bottom:138px;
     font-size: 24px;
 }
 
@@ -454,4 +461,42 @@ main ,  footer  {
 .ms5-h2 {
     font-weight: 400;
     color: #141414;
+}
+
+ .footer::after {
+    content: "";
+    display: inline-block;
+
+    background-color:#2B4A61 ;
+    height: 223px;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0.85;
+    position:absolute;
+
+    top: 1px;
+    
+    
+}
+
+.footer {
+    position: relative;
+}
+
+ .footer div, ul  {
+     z-index: 1;
+} 
+.footer-p1 {
+    position: relative;
+    z-index: 1;
+}
+
+.List-main-p-p5 {
+    font-size: 20px;
+    color: white;
+}
+
+.List-main-p-p3 {
+    font-size: 20px;
+    color: white;
 }
